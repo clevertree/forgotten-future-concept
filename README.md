@@ -41,3 +41,42 @@ Welcome to the Forgotten Future Development Team, this document will get you sta
 * Spirare (“Breathing Machines”) - This mechanical-spiritual form of life emerged as a side-effect of Incarnation Technology. Considered an abomination of science by some, Spirare are regarded as the next cycle in natural evolution by others. 
 
 * Spirare Humanoids - These Intelligent Spirare Cyborgs mimic humans in every way. They are very difficult to destroy, as they employ Rebirth Technology. Only a few were ever built.
+
+
+### Human History Timeline
+
+* World Peace
+Humanity achieves the means to stop eons of constant warfare. The world population is freed to move unhindered across the planet’s surface.
+Forbidden technologies are rediscovered. Restrictions on experimentation are agreed upon and placed on all “Nth Dimension Technology” after a series of public accidents. 
+Humanity discovers the existence of other intelligent life including breakaway human civilizations and first contact becomes imminent.
+
+* Invasion 
+First Contact is shattered as an alien invasion commences and all major human cities are attacked. Human artifacts and monuments are destroyed worldwide. Mysterious mass evacuations begin to occur in some surface cities.  
+World order is restored under the militarized pretense of resisting the alien invasion. All human civilization is once again reorganized as either for the war effort or against it (and by implication, alien sympathizers).
+The far side of the moon is chosen for the final assault against the invaders and their supposed primary base.
+
+* Cataclysm (less than a year)
+The moon is all-quiet as a massive human SAS assault fleet approaches to eliminate the Alien Threat and reoccupy the moon
+In response to the assault, the moon’s surface suddenly sheers off and forms a massive debris field that falls towards the Earth, destroying the assault fleet, and plummeting into the Earth’s surface. This is the precursor to “The Reset”
+A small fire-team survives the debris field and successfully navigates to the moon base. Upon arrival, they immediately discover the base to be long-abandoned, save for a single switch, The Reset Switch. 
+
+* Aftertime & World War (~600 years)
+Having failed the moon assault, and with no enemy left to fight, no alien civilization to contact, the militarized human population turns on itself and war breaks out.
+The Lunar Debris Field causes the Earth’s atmosphere to become chaotic. Long distance communication becomes unreliable. Eventually humans lose the ability to travel to space. Despite the Earth Quarantine, the ruling government's promise the surviving population a means of escape to the Mars Colony (a secret haven for the rich elite) if they behave and cooperate with the survival effort. This ploy works and the Earth’s population becomes willingly subjugated. 
+An unexpected side effect of the Cataclysm was the reemergence of floating islands. These islands, originally part of the Moon, float upwards as they slowly resume their magnetically bound orbit above the planet. 
+As the surface population forgets the reasons for starting the war, the effort devolves into automated, remote-controlled mechanized warfare fought between massive sentient machines. Noting the similarity between the machines and those seen in the alleged alien invasion, the population begins to lose faith in all ruling governments. This culminates to a point when the Mars Colony program turns out to be another hoax designed to eliminate dissent. The Earth’s Quarantine is finally made known to the surface population. 
+
+* Dark Ages (~700 years)
+All major surface cities are are eventually targeted and destroyed. Only underground cities and Deep Underground Bases (DUBs) escape the war path. Surface life dwindles as Dead Zones, areas where no light reach, spread across all land and cover the entire planet.
+Life continues underground, but no further down than the equilibrium zone, where the force of gravity reduces and becomes omnidirectional. Humans quickly learn that anything that digs below this border is lost or destroyed. Therefore humans only live in the crust of the planet, always hoping to someday retake the surface.
+Up above, lack of light and resources continue to cause worldwide reduction of plants and wildlife. Those areas that remain livable become targets for the still-functioning war machines and eventually give way to the Dead Zones. 
+As a side effect of the war machine’s rebirth technology, a new type of life form emerges: The Spirare. Sentient, spirit-bound, and motivated by survival, these ‘breathing machine’ life forms mimic the previous life forms in every way; they live, breath, flock, reproduce, communicate, and fight for dominance. Only the fittest survive. 
+
+* Twilight Age (~200 years)
+Eventually all but the most resilient war machines stop functioning. The destruction of the environment stops and sunlight begins to appear in the clouds, still in the shadow of the Moon’s debris field. 
+Humans begin to emerge on the surface, daring to live on the margins in desolate landscapes, hiding from ruthless still-functioning war machines. Those that survive do without technology, as they quickly learn that any use of technology could attract unwanted attention. 
+The one exception to this is Drift City. Originally a military installation, Drift City is the only known human city above the surface to have survived the war. Electrogravitic Repulsion technology allows the Drift City military installation to stabilize the orbit of a city-size island indefinitely within the planet’s atmosphere. The city build upon and within the island selectively drifts across the planet’s surface floating high above the dangerous surface world. Occasionally it will adjust orbit, setting off brilliant bolts of lightning that strike the ground. It’s origins and secrets remain a mystery to the world below. 
+
+* Dawn Age (~60 +Present Day) and the Coming War
+As the Dead-Zones reduce in size, the human population hesitantly re-colonizes the surface world. Communication between any territory is still risky, farming is still difficult, but plans for a new world are slowly drawn. The surface populations, still fractured from time, distance and chronic tribal warfare, can only agree on one thing: The inevitable Coming War will determine which tribe dominates the future.
+
