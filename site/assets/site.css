@@ -1,0 +1,55 @@
+
+
+.page-header {
+    /* display: block; */
+    min-height: 24px;
+}
+
+.page-title {
+
+}
+
+ul.page-links {
+    list-style: none;
+    text-align: center;
+}
+
+ul.page-links li {
+    display: inline-block;
+    padding: 0 1%;
+}
+
+.page-button {
+    display: block;
+    padding: 10%;
+    margin: 5%;
+    background-color: #335;
+    
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+/** Theme: Minimal **/
+
+.theme-minimal {
+    color: #EEF;
+    background-color: #001;
+    font-family: monospace;
+}
+
+.theme-minimal a {
+    color: #AEF;
+    text-decoration: none;
+}
+
+.theme-minimal h1 {
+    font-size: 3em;
+/*     padding: 0 0.5em; */
+}
+
+.theme-minimal p.first {
+    padding: 0 1em;
+}
+
