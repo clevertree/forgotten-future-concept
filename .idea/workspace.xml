@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc36e8a-dcbf-4946-94b5-68849276334c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/sprite/sheet/lem/lem-default.128.sprite-sheet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/sprite/sheet/lem/lem-default.256.sprite-sheet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/stages/stage1/map/default.tilemap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/stages/stage1/map/main.heightmap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/stages/stage1/tiles/default.tiles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/stages/stage1/tiles/pixi1.tiles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/stages/stage1/tiles/zelda.tiles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/relay" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/forgotten-future.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/client/game1.client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/client/game1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/client/game1.interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/color.fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/editor/assets/heightmap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/editor/assets/heightmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/editor/heightmap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/heightmap.fragment.editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/heightmap.fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/spritesheet.fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/texture.fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/tilemap.fragment.editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/fragment/tilemap.fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/sprite/player1.sprite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/sprite/player2.sprite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game/stages/stage1/stage1.stage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/relay/exec/chat.js" afterPath="$PROJECT_DIR$/lib/relay/exec/chat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/relay/exec/include.js" afterPath="$PROJECT_DIR$/lib/relay/exec/include.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/relay/exec/render.js" afterPath="$PROJECT_DIR$/lib/relay/exec/render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/relay/relay.js" afterPath="$PROJECT_DIR$/lib/relay/relay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/fragment/heightmap.fragment.js" afterPath="$PROJECT_DIR$/game/fragment/heightmap.fragment.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,11 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stage1.stage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/stages/stage1/stage1.stage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1740">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heightmap.fragment.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/game/fragment/heightmap.fragment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="101" column="32" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="104" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -128,6 +115,7 @@
         <option value="$PROJECT_DIR$/lib/relay/exec/include.js" />
         <option value="$PROJECT_DIR$/game/client/game1.client.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/game/fragment/heightmap.fragment.js" />
       </list>
     </option>
   </component>
@@ -185,6 +173,33 @@
               <item name="game" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="client" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="forgotten-future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forgotten-future" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fragment" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forgotten-future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forgotten-future" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forgotten-future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forgotten-future" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stage1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forgotten-future" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forgotten-future" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="game" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stage1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="map" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509239676400</updated>
-      <workItem from="1509240751462" duration="2456000" />
+      <workItem from="1509240751462" duration="2544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2456000" />
+    <option name="totallyTimeSpent" value="2544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="1072" width="1936" height="1056" extended-state="6" />
@@ -352,6 +367,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/stages/stage1/stage1.stage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1740">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/fragment/heightmap.fragment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="101" column="32" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="104" selection-end-column="16" />
           <folding />
         </state>
       </provider>

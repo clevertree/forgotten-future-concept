@@ -99,10 +99,10 @@
             // gl.bindTexture(gl.TEXTURE_2D, tHeightPattern);
 
 
-            for(var i=2000; i>-200; i--) {
-                gl.uniformMatrix4fv(uMVMatrix, false, Util.translate(mModelView, 0, 0, -0.1*i));
-                gl.drawArrays(gl.TRIANGLES, 0, 6);
-            }
+            // for(var i=2000; i>-200; i--) {
+            //     gl.uniformMatrix4fv(uMVMatrix, false, Util.translate(mModelView, 0, 0, -0.1*i));
+            //     gl.drawArrays(gl.TRIANGLES, 0, 6);
+            // }
 
             // draw the quad (2 triangles, 6 vertices)
             gl.drawArrays(gl.TRIANGLES, 0, 6);
