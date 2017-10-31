@@ -24,12 +24,18 @@ ul.page-links li {
     padding: 10%;
     margin: 5%;
     background-color: #335;
-    
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+    transform: scale(0.9);
 }
 
+.page-button:hover {
+    transform: scale(1);
+
+}
 
 /** Theme: Minimal **/
 
