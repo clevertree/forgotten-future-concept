@@ -61,4 +61,9 @@ ul.page-links li {
 
 .theme-minimal p {
     text-align: justify;
+    text-indent: 1em;
+}
+
+@media only screen and (max-device-width: 480px) {
+
 }
