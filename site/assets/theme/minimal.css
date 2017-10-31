@@ -46,14 +46,37 @@
     font-weight: bold;
 }
 
+.toggle-page-menu {
+    padding: 1em;
+    margin: 0 0;
+    transform: rotate(90deg);
+    transition: transform 0.3s;
+}
+
+body.menu .toggle-page-menu {
+    transform: rotate(0deg);
+}
+
 @media only screen and (max-width: 500px) {
 
+    .toggle-page-menu {
+        display: block;
+    }
+
     .theme-minimal ul.page-links {
-        /*position: absolute;*/
+        position: absolute;
         background-color: #000;
         /*padding: 3em 1em;*/
         font-size: xx-large;
         list-style: circle;
+        max-width: 0;
+        transition: max-width 1s;
+        z-index: 9;
+        overflow: hidden;
+    }
+
+    body.menu.theme-minimal ul.page-links {
+        max-width: 999px;
     }
 
     .theme-minimal ul.page-links li {
