@@ -9,16 +9,6 @@
 
 }
 
-ul.page-links {
-    list-style: none;
-    text-align: center;
-}
-
-ul.page-links li {
-    display: inline-block;
-    padding: 0 1%;
-}
-
 .page-button {
     display: block;
     padding: 10%;
@@ -34,36 +24,8 @@ ul.page-links li {
 
 .page-button:hover {
     transform: scale(1);
-
 }
 
-/** Theme: Minimal **/
-
-.theme-minimal {
-    color: #EEF;
-    background-color: #001;
-    font-family: monospace;
-}
-
-.theme-minimal a {
-    color: #AEF;
-    text-decoration: none;
-}
-
-.theme-minimal h1 {
-    font-size: 3em;
-/*     padding: 0 0.5em; */
-}
-
-.theme-minimal p.first {
-    padding: 0 1em;
-}
-
-.theme-minimal p {
-    text-align: justify;
-    text-indent: 1em;
-}
-
-@media only screen and (max-device-width: 480px) {
-
+.toggle-page-menu {
+    display: none;
 }

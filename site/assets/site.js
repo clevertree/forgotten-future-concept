@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     buttons = document.getElementsByClassName('page-button-subscribe');
     for(i=0; i<buttons.length; i++) buttons[i].addEventListener('click', siteButtonSubscribe);
 
-    console.log("Buttons configured", buttons);
+    // console.log("Buttons configured", buttons);
 
     function siteButtonPlay(e) {
         relay('INCLUDE game/loader.js');
