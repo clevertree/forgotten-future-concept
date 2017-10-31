@@ -67,12 +67,13 @@ body.menu .toggle-page-menu {
         position: absolute;
         background-color: #000;
         /*padding: 3em 1em;*/
-        font-size: xx-large;
+        font-size: x-large;
         list-style: circle;
         max-width: 0;
         transition: max-width 1s;
         z-index: 9;
         overflow: hidden;
+        white-space: nowrap;
     }
 
     body.menu.theme-minimal ul.page-links {
