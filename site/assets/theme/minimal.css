@@ -2,22 +2,39 @@
 /** Theme: Minimal **/
 
 .theme-minimal {
-    color: #EEF;
-    font-family: monospace;
+    color: #a7feef;
     margin: 0 0;
     background: #010101 url(../img/bk/bk-moon.png) no-repeat fixed center;
     /*animation: zoom-in 500s;*/
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
 }
 
-.theme-minimal a {
-    color: #AEF;
+body.theme-minimal > article a {
+    color: #f7aaff;
     text-decoration: none;
 }
 
 .theme-minimal h1 {
-    font-size: 3em;
-/*     padding: 0 0.5em; */
+    font-size: 2.5em;
+    /*     padding: 0 0.5em; */
+    color: #daf7ff;
 }
+
+
+.theme-minimal > article > h2 {
+    font-size: x-large /*     padding: 0 0.5em; */;
+    color: beige;
+}
+
+
+.theme-minimal > article > h3 {
+    font-size:larger
+/*     padding: 0 0.5em; */;
+    margin-left: .5em;
+    color: #bddfe9;
+}
+
+
 
 .theme-minimal p.first {
     padding: 0 1em;
@@ -25,7 +42,6 @@
 
 .theme-minimal p {
     text-align: justify;
-    text-indent: 1em;
 }
 
 .theme-minimal ul.page-links {
@@ -34,23 +50,26 @@
     padding: 0 0;
     margin: 0 0;
     border-radius: 4px;
+    background-color: rgba(0, 161, 255, 0.3);
 }
 
 .theme-minimal ul.page-links > li {
     display: inline-block;
     margin: 1px;
-    transition: background-color 1s ease-in;
+    transition: background-color  .2s ease-in;
 }
 
 
 .theme-minimal ul.page-links li a {
     display: block;
     text-align: left;
-    padding: 1em;
+    padding: 7px;
+    text-decoration: none;
+    color: #7fe3ff;
 }
 
 .theme-minimal ul.page-links li:hover {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
     transition: background-color 0.1s ease-in;
 }
