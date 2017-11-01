@@ -97,7 +97,7 @@ body.theme-minimal > article {
     padding: 8px;
     background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 95%, rgba(0, 0, 0, 0.0) 100%);
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1080px;
 }
 
 @-webkit-keyframes zoom-in {
