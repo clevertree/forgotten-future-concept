@@ -3,13 +3,10 @@
 
 .theme-minimal {
     color: #EEF;
-    background-color: #001;
     font-family: monospace;
     margin: 0 0;
-    background-image: url('../img/bk/bk-moon.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+    background: #001 url('../img/bk/bk-moon.png') no-repeat fixed center;
+    animation: zoom-in 500s;
 }
 
 .theme-minimal a {
@@ -73,9 +70,19 @@ body.menu .toggle-page-menu {
 
 
 body.theme-minimal > article {
-    margin: 8px;
+    padding: 8px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 95%, rgba(0, 0, 0, 0.0) 100%);
 }
 
+@-webkit-keyframes zoom-in {
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 500%;
+    }
+
+}
 
 
 
