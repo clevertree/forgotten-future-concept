@@ -2,7 +2,8 @@
 
 .page-header {
     /* display: block; */
-    min-height: 24px;
+    /* min-height: 24px; */
+    background-color: rgba(0, 161, 255, 0.3);
 }
 
 .page-title {
