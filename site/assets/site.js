@@ -1,16 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var buttons, i;
 
-    buttons = document.getElementsByClassName('page-button-play');
-    for(i=0; i<buttons.length; i++) buttons[i].addEventListener('click', siteButtonPlay);
+    // Event Listeners
+    each('page-button-play', function(button) { button.addEventListener('click', siteButtonPlay)});
+    each('page-button-subscribe', function(button) { button.addEventListener('click', siteButtonSubscribe)});
+    each('toggle-page-menu', function(button) { button.addEventListener('click', togglePageMenu)});
 
-    buttons = document.getElementsByClassName('page-button-subscribe');
-    for(i=0; i<buttons.length; i++) buttons[i].addEventListener('click', siteButtonSubscribe);
-
-    buttons = document.getElementsByClassName('toggle-page-menu');
-    for(i=0; i<buttons.length; i++) buttons[i].addEventListener('click', togglePageMenu);
-
-    // console.log("Buttons configured", buttons);
+    
+    
+    // Functions
 
     function siteButtonPlay(e) {
         relay('INCLUDE game/loader.js');
@@ -25,4 +22,9 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.classList.toggle('menu');
     }
 
+    function each(className, callback) {
+        var elements = document.getElementsByClassName(className);
+        for(var i=0; i<elements.length; i++) 
+            callback(elements[i]); // .addEventListener('click', siteButtonPlay);
+    }
 });
