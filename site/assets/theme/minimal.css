@@ -86,6 +86,7 @@ body.theme-minimal > article a {
     transition: transform 0.3s;
     border-radius: 8px;
     user-select: none;
+    outline: 0;
 }
 
 body.menu.theme-minimal .toggle-page-menu {
