@@ -5,7 +5,7 @@
     color: #EEF;
     font-family: monospace;
     margin: 0 0;
-    background: #001 url('../img/bk/bk-moon.png') no-repeat fixed center;
+    background: #010101 url(../img/bk/bk-moon.png) no-repeat fixed center;
     /*animation: zoom-in 500s;*/
 }
 
