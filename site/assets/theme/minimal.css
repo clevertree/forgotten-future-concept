@@ -78,9 +78,10 @@ body.theme-minimal > article a {
 /** Toggle **/
 
 .toggle-page-menu {
-    padding: 1em;
+    /* padding: 1em; */
     margin: 1em;
-    /* position: absolute; */
+    width: 48px;
+    height: 48px;
     transform: rotate(90deg);
     transition: transform 0.3s;
     border-radius: 8px;
@@ -112,12 +113,22 @@ body.theme-minimal > article {
 
 @media only screen and (max-width: 500px) {
 
-    .toggle-page-menu {
+    .theme-minimal header.page-header {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .theme-minimal > article {
+        padding-top: 2em !important;
+    }
+
+    .theme-minimal .toggle-page-menu {
         display: block;
+        /* position: absolute; */
     }
 
     .theme-minimal ul.page-links {
-        position: absolute;
+        /*position: absolute;*/
         background-color: #000;
         /*padding: 3em 1em;*/
         font-size: x-large;
