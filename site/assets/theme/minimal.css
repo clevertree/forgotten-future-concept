@@ -5,6 +5,7 @@
     color: #EEF;
     background-color: #001;
     font-family: monospace;
+    margin: 0 0;
 }
 
 .theme-minimal a {
@@ -37,26 +38,42 @@
 .theme-minimal ul.page-links > li {
     display: inline-block;
     margin: 1px;
-/*     padding: 0.5em 1%; */
-/*     border-radius: 4px; */
-    transition: background-color 0.5s ease-out;
+    transition: background-color 1s ease-in;
+}
+
+
+.theme-minimal ul.page-links li a {
+    display: block;
+    text-align: left;
+    padding: 1em;
 }
 
 .theme-minimal ul.page-links li:hover {
     background-color: #333;
     font-weight: bold;
+    transition: background-color 0.1s ease-in;
 }
 
 .toggle-page-menu {
     padding: 1em;
-    margin: 0 0;
+    margin: 1em;
+    /* position: absolute; */
     transform: rotate(90deg);
     transition: transform 0.3s;
+    border-radius: 8px;
 }
 
 body.menu .toggle-page-menu {
     transform: rotate(0deg);
 }
+
+
+body.theme-minimal > article {
+    margin: 8px;
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
 
@@ -72,11 +89,9 @@ body.menu .toggle-page-menu {
         list-style: circle;
         max-width: 0;
         transition: max-width 1s;
-        z-index: 9;
         overflow: hidden;
         white-space: nowrap;
-
-/*         padding: 0.5em; */
+        /*         padding: 0.5em; */
     }
 
     .theme-minimal ul.page-links > li {
@@ -93,25 +108,22 @@ body.menu .toggle-page-menu {
 
 
     .theme-minimal ul.page-links li a {
-        display: block;
-        text-align: left;
-        padding: 0.5em 1em;
     }
 
     /** Menu Open **/
 
-    
-
     body.menu.theme-minimal ul.page-links {
         max-width: 500px;
+        z-index: 9;
     }
 
     body.theme-minimal article {
         opacity: 1;
-        transition: opacity 1s;
+        transition: opacity 1s 0.5s ease-in;
     }
     body.menu.theme-minimal article {
         opacity: 0.05;
+        transition: opacity 0.2s ease-in;
     }
 
 }

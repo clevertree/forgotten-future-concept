@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function siteButtonSubscribe(e) {
-        document.location.href = 'site/subscribe.html';
+        document.location.href = 'site/contribute.html';
     }
 
     function togglePageMenu(e) {
