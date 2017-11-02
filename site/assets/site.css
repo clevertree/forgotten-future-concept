@@ -3,7 +3,9 @@
 .page-header {
     /* display: block; */
     /* min-height: 24px; */
-    background-color: rgba(0, 161, 255, 0.3);
+    /* background-color: rgba(0, 161, 255, 0.3); */
+    position: fixed;
+    width: 100%;
 }
 
 .page-title {
