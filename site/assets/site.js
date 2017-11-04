@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     // Event Listeners
-    each('page-button-play', function(button) { button.addEventListener('click', siteButtonPlay)});
-    each('page-button-subscribe', function(button) { button.addEventListener('click', siteButtonSubscribe)});
-    each('toggle-page-menu', function(button) { button.addEventListener('click', togglePageMenu)});
+    eachClass('page-button-play', function(button) { button.addEventListener('click', siteButtonPlay)});
+    eachClass('page-button-subscribe', function(button) { button.addEventListener('click', siteButtonSubscribe)});
+    eachClass('toggle-page-menu', function(button) { button.addEventListener('click', togglePageMenu)});
 
     
     
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.classList.toggle('menu');
     }
 
-    function each(className, callback) {
+    function eachClass(className, callback) {
         var elements = document.getElementsByClassName(className);
         for(var i=0; i<elements.length; i++) 
             callback(elements[i]); // .addEventListener('click', siteButtonPlay);
