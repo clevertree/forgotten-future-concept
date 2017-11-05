@@ -71,10 +71,12 @@
     color: #7fe3ff;
 }
 
+.theme-minimal ul.page-links li.highlight,
 .theme-minimal ul.page-links li:hover {
     background-color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
     transition: background-color 0.1s ease-in;
+    border-radius: 4px;
 }
 
 /** Anchor Links **/
