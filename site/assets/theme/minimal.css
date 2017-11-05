@@ -1,49 +1,52 @@
-
 /** Theme: Minimal **/
-
 .theme-minimal {
     color: #a7feef;
     margin: 0 0;
     background: #010101 url(../img/bk/bk-moon.png) no-repeat fixed center;
-    /*animation: zoom-in 500s;*/
     font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
 }
 
-body.theme-minimal > article a {
-    color: #f7aaff;
-    text-decoration: none;
-}
-
-.theme-minimal h1 {
+/** Page Headings **/
+.theme-minimal article > h1 {
     font-size: 2.5em;
-    /*     padding: 0 0.5em; */
     color: #daf7ff;
 }
 
-
-.theme-minimal > article > h2 {
+.theme-minimal article > h2 {
     font-size: x-large /*     padding: 0 0.5em; */;
     color: beige;
 }
 
-
-.theme-minimal > article > h3 {
+.theme-minimal article > h3 {
     font-size:larger
 /*     padding: 0 0.5em; */;
     margin-left: .5em;
     color: #bddfe9;
 }
 
-
-
-.theme-minimal p.first {
-    padding: 0 1em;
-}
-
-.theme-minimal p {
+/** Paragraphs **/
+.theme-minimal article > p {
     text-align: justify;
 }
 
+/** Footer **/
+
+.theme-minimal > footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 1em;
+}
+
+.theme-minimal > footer a {
+    color: #bbb;
+    text-decoration: none;
+    text-transform: lowercase;
+    background-color: rgba(81, 81, 81, 0.5);
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+/** Page Navigation Links **/
 .theme-minimal ul.page-links {
     list-style: none;
     text-align: center;
@@ -74,21 +77,10 @@ body.theme-minimal > article a {
     transition: background-color 0.1s ease-in;
 }
 
-/** Footer **/
-
-.theme-minimal > footer {
-    text-align: center;
-    margin-top: 100px;
-    padding: 1em;
-}
-
-.theme-minimal > footer a {
-    color: #bbb;
+/** Anchor Links **/
+body.theme-minimal > article a {
+    color: #f7aaff;
     text-decoration: none;
-    text-transform: lowercase;
-    background-color: rgba(81, 81, 81, 0.5);
-    padding: 8px 16px;
-    border-radius: 4px;
 }
 
 /** Toggle **/

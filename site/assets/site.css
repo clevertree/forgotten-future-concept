@@ -1,17 +1,17 @@
-
-
+/** Page Header **/
 .page-header {
-    /* display: block; */
-    /* min-height: 24px; */
-    /* background-color: rgba(0, 161, 255, 0.3); */
     position: fixed;
     width: 100%;
 }
 
-.page-title {
 
+/** Page Menu **/
+.toggle-page-menu {
+    display: none;
 }
 
+
+/** Page Button **/
 .page-button {
     display: block;
     padding: 10%;
@@ -27,8 +27,4 @@
 
 .page-button:hover {
     transform: scale(1);
-}
-
-.toggle-page-menu {
-    display: none;
 }
