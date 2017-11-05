@@ -6,6 +6,17 @@
     font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
 }
 
+
+/** Page Articles **/
+.theme-minimal > article {
+    padding: 40px 8px 8px 8px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 95%, rgba(0, 0, 0, 0.0) 100%);
+    margin: 0 auto;
+    max-width: 1080px;
+    min-height: 480px;
+}
+
+
 /** Page Headings **/
 .theme-minimal article > h1 {
     font-size: 2.5em;
@@ -80,15 +91,14 @@
 }
 
 /** Anchor Links **/
-body.theme-minimal > article a {
+.theme-minimal > article a {
     color: #f7aaff;
     text-decoration: none;
 }
 
-/** Toggle **/
-
+/** Page Menu Toggle **/
 .theme-minimal .toggle-page-menu {
-    /* padding: 1em; */
+    display: none;
     margin: 1em;
     width: 48px;
     height: 48px;
@@ -99,47 +109,37 @@ body.theme-minimal > article a {
     outline: 0;
 }
 
-body.menu.theme-minimal .toggle-page-menu {
+.menu.theme-minimal .toggle-page-menu {
     transform: rotate(0deg);
 }
 
 
-body.theme-minimal > article {
-    padding: 40px 8px 8px 8px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 95%, rgba(0, 0, 0, 0.0) 100%);
-    margin: 0 auto;
-    max-width: 1080px;
-    min-height: 480px;
-}
-
-@-webkit-keyframes zoom-in {
-    0% {
-        background-size: 100%;
-    }
-    100% {
-        background-size: 500%;
-    }
-
-}
-
-
-
+/** Mobile/Responsive View **/
 @media only screen and (max-width: 500px) {
 
+    /** Mobile Page Header **/
     .theme-minimal header.page-header {
         position: fixed;
         z-index: 1;
     }
 
-    .theme-minimal > article {
-        /* padding-top: 2.5em !important; */
+    /** Mobile Articles **/
+    .theme-minimal article {
+        opacity: 1;
+        transition: opacity 1s 0.5s ease-in;
+    }
+    .menu.theme-minimal article {
+        opacity: 0.05;
+        transition: opacity 0.2s ease-in;
     }
 
+    /** Page Menu Toggle **/
     .theme-minimal .toggle-page-menu {
         display: block;
         /* position: absolute; */
     }
 
+    /** Mobile Page Links **/
     .theme-minimal ul.page-links {
         /*position: absolute;*/
         background-color: #000;
@@ -170,19 +170,9 @@ body.theme-minimal > article {
     }
 
     /** Menu Open **/
-
-    body.menu.theme-minimal ul.page-links {
+    .menu.theme-minimal ul.page-links {
         max-width: 500px;
         z-index: 9;
-    }
-
-    body.theme-minimal article {
-        opacity: 1;
-        transition: opacity 1s 0.5s ease-in;
-    }
-    body.menu.theme-minimal article {
-        opacity: 0.05;
-        transition: opacity 0.2s ease-in;
     }
 
 }
