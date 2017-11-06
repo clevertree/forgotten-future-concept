@@ -147,6 +147,7 @@
         font-size: x-large;
         list-style: circle;
         max-width: 0;
+        max-height: 0;
         transition: max-width 1s;
         overflow: hidden;
         white-space: nowrap;
@@ -172,6 +173,7 @@
     /** Menu Open **/
     .menu.theme-minimal ul.page-links {
         max-width: 500px;
+        max-height: 1000px;
         z-index: 9;
     }
 
