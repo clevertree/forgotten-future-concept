@@ -1,3 +1,12 @@
+
+if(urlParams.autoplay) {
+    console.info("Autoplay running");
+    relay('INCLUDE game/loader.js');
+    relay('PLAY');
+}
+
+
+
 // relay('RENDER <pre class="text-div">Hello World<hr/></pre>');
 // relay('RENDER.SELECTOR .text-div Hi World<hr/>');
 //

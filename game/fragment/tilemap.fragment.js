@@ -273,7 +273,7 @@
                 mMapSize = [iLevelMap.width * tileSize, iLevelMap.height * tileSize];
                 mModelView = Util.translate(mModelView, mPosition[0], mPosition[1], mPosition[2]);
                 mModelView = Util.scale(mModelView, sx * 2, sy * 2, 1);
-                console.log("Set Level Scale: ", sx, sy);
+//                 console.log("Set Level Scale: ", sx, sy);
             }
         };
 
