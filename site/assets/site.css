@@ -29,3 +29,45 @@
 .page-button:hover {
     transform: scale(1);
 }
+
+
+/** Tier Content **/
+
+.tier-categories {
+    float: right;
+    margin-top: 2em;
+}
+
+.tier-category {
+    position: relative;
+    padding: 0.7em 1em;
+    margin: 1em;
+    background-color: rgba(50, 143, 102, 0.55);
+    border-radius: 3px;
+}
+
+.tier-title {
+    font-weight: bold;
+}
+.tier-description {
+    color: #d4d4d4;
+    font-size: smaller;
+    padding: 0.5em;
+}
+.tier-delivery {
+    color: #d4d4d4;
+    font-size: smaller;
+    float: right;
+}
+.tier-backers {
+    color: #d4d4d4;
+    font-size: smaller;
+}
+
+/** Tier Content Mobile/Responsive View **/
+@media only screen and (max-width: 750px) {
+    .tier-categories {
+        float: none;
+        margin-top: 3em;
+    }
+}
