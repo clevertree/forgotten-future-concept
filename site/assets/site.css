@@ -33,15 +33,25 @@
 
 /** Tier Content **/
 
+.tier-header {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding: 12px 16px;
+    margin: 16px;
+    background-color: rgb(51, 53, 55);
+}
+
 .tier-categories {
     float: right;
-    margin-top: 2em;
+    margin-top: 32px;
+    max-width: 400px;
 }
 
 .tier-category {
     position: relative;
-    padding: 0.7em 1em;
-    margin: 1em;
+    padding: 12px 16px;
+    margin: 16px;
     background-color: rgb(51, 53, 55);
     border-radius: 3px;
 }
@@ -50,24 +60,33 @@
     font-weight: bold;
 }
 .tier-description {
-    color: #d4d4d4;
-    font-size: smaller;
-    padding: 0.5em;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px;
+    list-style-type: square;
 }
+ul.tier-description li {
+    padding-bottom: 4px;
+}
+ul.tier-description .includes {
+    color: #AAA;
+}
+
 .tier-delivery {
-    color: #d4d4d4;
-    font-size: smaller;
+    color: #a6a6a6;
+    font-size: 12px;
     float: right;
 }
 .tier-backers {
-    color: #d4d4d4;
-    font-size: smaller;
+    color: #a6a6a6;
+    font-size: 12px;
 }
 
 /** Tier Content Mobile/Responsive View **/
 @media only screen and (max-width: 750px) {
     .tier-categories {
         float: none;
-        margin-top: 3em;
+        margin-top: 48px;
+        max-width: 750px;
     }
 }
